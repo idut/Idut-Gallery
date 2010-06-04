@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteRule ^(.*)\-\-(.*)\.html index.php?c=show&d=$1&f=$2 [l,qsa]
+RewriteRule ^(.*)\.html index.php?c=album&d=$1 [l,qsa]
+
